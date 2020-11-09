@@ -8,7 +8,7 @@ challeng discription:
 
 ![](https://github.com/majidgourkani/ctf-writeup/blob/master/WEB/2020/sunshineCTF/12.PNG)
 
-for choosing password of account we got some password policies as mentioned in below and we pass them:
+for choosing password of account, we got some password policies as mentioned in below and we pass them:
 1) Error! Password is too short.(123)
 2) Error! Password must include more than two special characters.(qaz!!!)
 3) Error! Password must include a prime amount of numbers.(qaz!!!11)
@@ -20,13 +20,13 @@ for choosing password of account we got some password policies as mentioned in b
 in this step my password was something like this:  `MEST@@@test11☺`
 
 
-the last condithion was:
+the last condition was:
 
 
 >**Error! Password must be valid JavaScript that evaluates to True.**
 
 
-so i must choose a password that pass a true statment in JavaScript (something like 1=1), so after a while i found this
+so i must choose a password that pass a true statement in JavaScript (something like 1=1), so after a while i found this
 and got the flag:
 
 
