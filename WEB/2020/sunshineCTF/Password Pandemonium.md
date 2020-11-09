@@ -2,9 +2,11 @@
 challeng discription:
 >You're looking to book a flight to Florida with the totally-legit new budget airline, Oceanic Airlines! All you need to do is create an account! Should be pretty easy, right?
 ...right?
-https://pandemonium.web.2020.sunshinectf.org
-Author: Jeffrey D.
+>https://pandemonium.web.2020.sunshinectf.org
+>Author: Jeffrey D.
 >
+
+![](https://github.com/majidgourkani/ctf-writeup/blob/master/WEB/2020/sunshineCTF/12.PNG)
 
 for choosing password of account we got some password policies as mentioned in below and we pass them:
 1) Error! Password is too short.(123)
@@ -32,3 +34,4 @@ password: `'☺1tM'!=!'Mt1☺'`
 
 
 here is flag: `sun{Pal1ndr0m1c_EcMaScRiPt}`
+![](https://github.com/majidgourkani/ctf-writeup/blob/master/WEB/2020/sunshineCTF/13.PNG)
